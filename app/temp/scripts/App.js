@@ -10335,7 +10335,7 @@ function Logo(){
 
     this.show=function(){
        $(window).scroll(function(){
-         if($(this).scrollTop() >= 824){
+         if($(this).scrollTop() >= 750){
              logo.fadeIn();
          }else{
              logo.fadeOut();

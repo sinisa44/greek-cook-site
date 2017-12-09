@@ -1,0 +1,41 @@
+.plate{
+    position:absoulte;
+    padding-top:100px;
+    height:850px;
+
+  &__image{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+  }
+
+  &__lines{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      position:relative;
+      top:-450px;
+  }
+
+  &__oven{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      position:relative;
+      top:-430px;
+  }
+
+  &__text{
+      width:260px;
+      height:260px;
+      color:white;
+      font-size:19px;
+      vertical-align:middle;
+      text-align:center;
+      transform: translateY(10%); 
+      line-height:30px;
+      position:relative;
+      top:-510px;
+      margin: 0 auto 0 auto;
+  }
+}

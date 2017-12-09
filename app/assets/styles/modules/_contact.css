@@ -1,0 +1,12 @@
+.contact{
+ 
+    height:423px;
+    padding-top:7.5px;
+    
+
+    &__plate{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

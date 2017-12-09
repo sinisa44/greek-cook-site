@@ -4,3 +4,6 @@
 @import "modules/_site-header";
 @import "modules/_logo";
 @import "modules/_flying-logo";
+@import "modules/_plate";
+@import "modules/_contact";
+@import "modules/_contact-form";
