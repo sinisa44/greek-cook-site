@@ -14,12 +14,5 @@
         
     }
 
-    &__logo{
-        display:block;
-        position:absolute;
-        top:576px;
-        bottom:112px;
-        left:45%;
-    }
-
+    
 }

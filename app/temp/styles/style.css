@@ -454,6 +454,11 @@ body{
     font-family: 'Roboto',sans-serif;
 }
 
+*{
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+}
+
 .site-header{
     
     padding: 39px;
@@ -463,6 +468,7 @@ body{
     margin-left:auto;
     margin-right:auto;
 
+    
 }
 
 .site-header__image{
@@ -472,10 +478,22 @@ body{
         
     }
 
-.site-header__logo{
+.logo{
         display:block;
         position:absolute;
         top:576px;
         bottom:112px;
         left:45%;
+    }
+
+.flying-logo{
+    display:none;
+    position:fixed;
+    top:24px;
+    left:34px;
+    height:100px;
+}
+
+.flying-logo__image{
+        height:100%;        
     }

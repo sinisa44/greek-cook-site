@@ -1,0 +1,11 @@
+.flying-logo{
+    display:none;
+    position:fixed;
+    top:24px;
+    left:34px;
+    height:100px;
+    
+    &__image{
+        height:100%;        
+    }
+}
