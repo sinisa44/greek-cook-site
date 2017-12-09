@@ -1,0 +1,25 @@
+.site-header{
+    
+    padding: 39px;
+    width:800px;
+    height:800px;
+  
+    margin-left:auto;
+    margin-right:auto;
+
+    &__image{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+
+    &__logo{
+        display:block;
+        position:absolute;
+        top:576px;
+        bottom:112px;
+        left:45%;
+    }
+
+}

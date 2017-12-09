@@ -22,8 +22,10 @@
   "devDependencies": {
     "autoprefixer": "^7.2.2",
     "browser-sync": "^2.18.13",
+    "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^7.0.0",
     "gulp-watch": "^4.3.11",
+    "normalize.css": "^7.0.0",
     "postcss": "^6.0.14",
     "postcss-import": "^11.0.0",
     "postcss-mixins": "^6.2.0",
