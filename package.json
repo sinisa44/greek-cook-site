@@ -1,0 +1,33 @@
+{
+  "name": "vervoe",
+  "version": "1.0.0",
+  "description": "assignement for jov apply",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinisa44/greek-cook-site.git"
+  },
+  "author": "sinisa miskovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinisa44/greek-cook-site/issues"
+  },
+  "homepage": "https://github.com/sinisa44/greek-cook-site#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "browser-sync": "^2.18.13",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss": "^6.0.14",
+    "postcss-import": "^11.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}
