@@ -10324,18 +10324,31 @@ return jQuery;
 
 
 /***/ },
-/* 1 */
+/* 1 */,
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+var $ = __webpack_require__(0);
+var Logo = __webpack_require__(3);
+
+logo = new Logo(750,'.flying-logo');
+logo.show();
+
+rollingPin = new Logo(1567,'.rolling-pin');
+rollingPin.show();
+
+/***/ },
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {
 
-function Logo(){
-   
-    var logo =$('.flying-logo');
-
+function Logo(scrollValue, element){
+  
+    var logo =$(''+element);
     this.show=function(){
        $(window).scroll(function(){
-         if($(this).scrollTop() >= 750){
+         if($(this).scrollTop() >= scrollValue){
              logo.fadeIn();
          }else{
              logo.fadeOut();
@@ -10345,16 +10358,6 @@ function Logo(){
 }
 module.exports = Logo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ },
-/* 2 */
-/***/ function(module, exports, __webpack_require__) {
-
-var $ = __webpack_require__(0);
-var Logo = __webpack_require__(1);
-
-logo = new Logo();
-logo.show();
 
 /***/ }
 /******/ ]);

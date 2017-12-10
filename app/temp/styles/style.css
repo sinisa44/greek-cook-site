@@ -464,7 +464,6 @@ body{
     padding: 39px;
     width:800px;
     height:800px;
-  
     margin-left:auto;
     margin-right:auto;
 
@@ -505,14 +504,17 @@ body{
 }
 
 .plate__image{
-      display:block;
-      margin-left:auto;
-      margin-right:auto;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
   }
 
 .plate__lines{
+      
       display:block;
+      
       margin-left:auto;
+      
       margin-right:auto;
       position:relative;
       top:-450px;
@@ -556,11 +558,10 @@ body{
 .contact-form{
     background-color:#f6921e;
     height:377px;
-
 }
 
 .contact-form__wrapper{
-     padding-top:30px;
+     padding-top:15px;
      width:960px;
      height:250px;
      margin:0 auto 0 auto;
@@ -598,3 +599,116 @@ body{
 .contact-form__top-m{
     margin-top:20px;
 }
+
+.contact-form__submit-img{
+    position:relative;
+    width:67px;
+    height:74px;
+    left:48%;
+    bottom:55px;
+}
+
+.contact-form__image--center{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   
+    position:relative;
+    top:-59px;
+}
+
+.contact-form__image-text{
+    position:relative;
+    top:-44px;
+    left:10px;
+    color:white;
+    height:auto;
+}
+
+.rolling-pin{
+    
+    position:fixed;
+    bottom:-100px;
+    left:38%;
+}
+
+.rolling-pin img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+.rolling-pin__text{
+        font-size:16px;
+        font-weight: 400;
+        width:120px;
+        color:#FFF;
+        position:relative;
+        top:-48px;
+        left: 20%;
+    }
+
+.rolling-pin__text--center{
+        color:#FFF;
+        left:49%;
+        top:-82px;
+    }
+
+.rolling-pin__text--right{
+        color:@white;
+        left:70%;
+        top:-116px;
+    }
+
+.quiz__cooking-pot--cover{
+        width:715px;
+        height:405px;
+        margin:0 auto;
+    }
+
+.quiz__cooking-pot--cover img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+.quiz__questions{
+        width:715px;
+        margin:0 auto;
+
+    }
+
+.quiz__questions h4{
+            color:#FFF;
+            margin-bottom:12px;
+            background-color:#f6921e;
+            height:32px;
+            vertical-align:middle;
+            line-height:32px;
+            padding-left:52px;
+        }
+
+.quiz__table{
+        width:100%;
+    }
+
+.quiz__table-number{
+        width:32px;
+        height:32px;
+        color:#FFF;
+        background-color:#f6921e;
+        text-align:center;
+        font-weight:bold;
+    }
+
+.quiz__table-question{
+        background-color:#f6921e;
+        color:#FFF;
+        padding-left:14px;
+        font-weight:bold; 
+        
+    }
+
+.quiz__table--hover:hover{
+        background-color:#a25f12;
+    }

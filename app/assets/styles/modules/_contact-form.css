@@ -3,7 +3,7 @@
     height:377px;
  
  &__wrapper{
-     padding-top:30px;
+     padding-top:15px;
      width:960px;
      height:250px;
      margin:0 auto 0 auto;
@@ -42,4 +42,24 @@
     margin-top:20px;
 }
 
+&__submit-img{
+    position:relative;
+    width:67px;
+    height:74px;
+    left:48%;
+    bottom:55px;
+}
+&__image--center{
+   @mixin centerImage;
+   
+    position:relative;
+    top:-59px;
+}
+&__image-text{
+    position:relative;
+    top:-44px;
+    left:10px;
+    color:white;
+    height:auto;
+}
 }

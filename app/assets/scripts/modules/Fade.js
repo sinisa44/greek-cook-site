@@ -1,12 +1,11 @@
 
 
-function Logo(){
-   
-    var logo =$('.flying-logo');
-
+function Logo(scrollValue, element){
+  
+    var logo =$(''+element);
     this.show=function(){
        $(window).scroll(function(){
-         if($(this).scrollTop() >= 750){
+         if($(this).scrollTop() >= scrollValue){
              logo.fadeIn();
          }else{
              logo.fadeOut();
